@@ -7,5 +7,42 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Text Inputs</h1>
+    <!-- The form tag can take diffrent attributes such as `action` and `method` html can only display forms not process them they need to have input tags in them action is the server side endpoint and method is the http method -->
+     <!-- Text- is single line text inputs
+      email -  is an email input similar to text but it requires an email address
+      password - is a password aka hidden input
+      number- is a number input single line
+      textarea - is a multi line text input
+      select-  is a drop down list
+      date - is a date input date picker
+      checkbox - is a checkbox multi select
+      raidio - is a radio button single select
+      file - is a file upload
+      submit - is a submit button
+      range - is a range input slider input
+      color - is a color input color picker
+       -->
+
+        <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+      </div>
+      <div>
+        <!-- <input type="submit" value="Submit"> -->
+         <button type="submit">Submit</button>
+      </div>
+    </form>
+
   </body>
 </html>
