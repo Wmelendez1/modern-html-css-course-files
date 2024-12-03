@@ -1,0 +1,25 @@
+/* diffrent css selectors */
+/* selecting by tag */
+h1 {
+    color: red;
+}
+/* selecting by class */
+.my-class {
+    color: blue;
+}
+/* selecting by id */
+#my-id {
+    color: green;
+}
+/* selecting by attribute */
+input[type="text"] {
+    color: black;
+}
+/* this tales precedence over just a normal p tag due to specificity */
+.my-class p{
+    color: purple;
+} 
+/* multiple selectors */
+h1, h2, h3, h4, h5, h6 {
+    color: orange;
+}

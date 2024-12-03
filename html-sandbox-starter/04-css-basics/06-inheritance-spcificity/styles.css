@@ -1,3 +1,31 @@
 body {
   font-family: Arial, sans-serif;
 }
+/* specificity 
+the most recent element has the highest specificity unless
+a specificity is specified interms of class as the .container h1 example below
+
+
+class has a higer specificity  than regular tag 
+
+id has a higher spacificity than class*/
+
+ /* .container h1 {
+  color: blue;
+} */
+
+.heading {
+  color: green;
+}
+
+#heading {
+  color: purple;
+}
+
+/* important has the highest spacificity */
+
+h1{
+  color: red !important;
+}
+
+

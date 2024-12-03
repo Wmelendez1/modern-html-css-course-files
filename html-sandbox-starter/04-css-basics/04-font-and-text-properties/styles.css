@@ -1,0 +1,12 @@
+body{
+    /* font family is a font stack that will be used to render text in order if available if not it will use the next in the list */
+    font-family:'Poppins', sans-serif;
+}
+
+h2{
+    /* font size is the size of the font */
+   font-size: 30px; 
+
+   /* font weight is the thickness of the font */
+   font-weight: 600;
+}

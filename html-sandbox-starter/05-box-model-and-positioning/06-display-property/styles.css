@@ -1,3 +1,33 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+/* used most commonly */
+.none-el {
+  display: none;
+}
+
+.hidden-el {
+  visibility: hidden;
+}
+/* p{
+  display: inline;
+}
+a{
+  display: block;
+} */
+
+/* inline block */
+
+a{
+  /* common top use for buttons and menu items */
+  display: inline-block;
+  background-color: lightblue;
+  border: blue solid 1px;
+  padding: 10px;
+  /* if inline element you cant add vertical margins */
+  margin: 20px 10px;
+  width:200px;
+  height: 100px;
+  /* width  and height are not working because inline element */
+}

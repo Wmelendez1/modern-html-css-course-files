@@ -1,3 +1,11 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.box-1 {
+  background: blue;
+  color: white;
+  margin: 50% auto;
+  max-width: 400px;
+  overflow-y: scroll;
+}
